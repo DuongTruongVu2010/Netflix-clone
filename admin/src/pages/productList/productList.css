@@ -1,0 +1,41 @@
+.productList {
+    flex: 4;
+}
+.productListItem {
+    display: flex;
+    align-items: center;
+}
+.productListImg {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.productListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: white;
+    background-color: #3bb077;
+}
+.productListDetele {
+    color: red;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+.dataGrid {
+    margin-bottom: 20px;
+}
+.linkCreateMovie {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 5px;
+}
